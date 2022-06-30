@@ -5,11 +5,11 @@ export default function addScan() {
     return <>
     <h1>Add New Scan</h1>
     <label htmlFor="badge-number">Badge Number</label>
-    <input name="badge-number"/>
+    <input name="badge-number"/><br></br>
     <label htmlFor="part-number">Part Number</label>
-    <input name="part-number"/>
+    <input name="part-number"/><br></br>
     <label htmlFor="work-order-number">Work Order Number</label>
-    <input name="work-order-number"/>
+    <input name="work-order-number"/><br></br>
     <button onClick={submitForm}>Submit</button>
     </>
 }
