@@ -51,8 +51,21 @@ input {
 
 button {
   height: 3em;
-  width: 80%;
+  width: 30%;
   margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #55565A;
+  color: #FFFFFF;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+button.home {
+  height: 3em;
+  width: 40%;
+  margin-left: 50%;
   margin-right: 10%;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -74,9 +87,9 @@ header {
   position: absolute;
 }
 
-img.Profile-Photo {
-  width: 80%;
-  height: 80%;
+svg {
+  width: 1em;
+  height: 1em;
 }
 
 table {
@@ -84,10 +97,7 @@ table {
   margin-right: 10%;
   margin-left: 10%;
   min-height: 5em;
-  align-content: center;
+  text-align: left;
   background-color: #e0e0e0;
-}
-
-td {
-  content: center;
+  border-color:#a0a0a0;
 }

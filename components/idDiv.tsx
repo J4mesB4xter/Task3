@@ -1,13 +1,21 @@
-import Abed_Thumbs_Up from "../public/Abed_Thumbs_Up.svg"
+import { BlockList } from 'net';
+import Image from 'next/image';
 
 export default function IdDiv() {
     let firstName = "Name"
     let lastName = "Nameson"
     return <>
-    <table>
-        <td><img class="Profile-Photo" src={Abed_Thumbs_Up} alt="profile-photo"></img></td>
-        <td>{firstName}<br></br>{lastName}</td>
-        <td><button>Add Scan</button></td>
-    </table>
+        <table>
+            <tr><td>
+                <Image
+                src={require("../public/Abed_Thumbs_Up.jpeg")}
+                alt="profile-photo"
+                width={100}
+                height={100}
+                />
+            </td>
+            <td>{firstName}<br></br>{lastName}</td></tr>
+        </table>
+        <button className="home">Add Scan</button>
     </>
 }

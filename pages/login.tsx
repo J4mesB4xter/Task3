@@ -9,8 +9,9 @@ export default function login() {
     return <>
     <NavBar/>
     <h1>Login</h1>
-    <InputBox name="Username"/>
-    <InputBox name="Password"/>
+    <InputBox name="First Name"/>
+    <InputBox name="Last Name"/>
+    <InputBox name="Badge Number"/>
     <button onClick={submitForm}>Submit</button>
     </>
 }
